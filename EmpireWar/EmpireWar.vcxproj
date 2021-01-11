@@ -94,7 +94,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>../../Data/Inc;../../BuildingUnits/Inc;../../MovUnits/Inc;../../Public/Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>./Data/Inc;./BuildingUnits/Inc;./MovUnits/Inc;./Public/Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -130,8 +130,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>
-      </AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>./Attribute/Inc;./BuildingUnits/Inc;./MovUnits/Inc;./Public/Inc;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -160,14 +159,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Attribute\Inc\AttributeUnitData.h" />
+    <ClInclude Include="Attribute\Inc\attribute_data.h" />
     <ClInclude Include="Attribute\Inc\BuildUnitData.h" />
     <ClInclude Include="Attribute\Inc\MovingUnitData.h" />
     <ClInclude Include="BuildingUnits\Inc\basic_building.h" />
+    <ClInclude Include="BuildingUnits\Inc\Captial.h" />
+    <ClInclude Include="BuildingUnits\Inc\City.h" />
+    <ClInclude Include="BuildingUnits\Inc\CommerceDepart.h" />
+    <ClInclude Include="BuildingUnits\Inc\DefenseMinistry.h" />
+    <ClInclude Include="BuildingUnits\Inc\NationalSecurity.h" />
+    <ClInclude Include="BuildingUnits\Inc\SciencesAcademy.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="MovUnits\Inc\BasicMoving.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="Public\Inc\error.h" />
+    <ClInclude Include="Public\Inc\type.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Attribute\Src\attribute_data.cpp" />
+    <ClCompile Include="BuildingUnits\Src\Captial.cpp" />
+    <ClCompile Include="BuildingUnits\Src\City.cpp" />
+    <ClCompile Include="BuildingUnits\Src\CommerceDepart.cpp" />
+    <ClCompile Include="BuildingUnits\Src\DefenseMinistry.cpp" />
+    <ClCompile Include="BuildingUnits\Src\NationalSecurity.cpp" />
+    <ClCompile Include="BuildingUnits\Src\SciencesAcademy.cpp" />
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="MovUnits\Src\BasicMoving.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

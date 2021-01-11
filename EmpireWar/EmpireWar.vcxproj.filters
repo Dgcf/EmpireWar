@@ -37,6 +37,12 @@
     <Filter Include="源文件\Attribute">
       <UniqueIdentifier>{1b90b97f-cac9-44ac-bd80-0c745a6facab}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Player">
+      <UniqueIdentifier>{0791f737-d915-4054-82bb-82735934514e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Player">
+      <UniqueIdentifier>{258de18f-2228-4c65-97d5-c0d4ec586519}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -54,6 +60,39 @@
     <ClInclude Include="BuildingUnits\Inc\basic_building.h">
       <Filter>头文件\BuildingUnits</Filter>
     </ClInclude>
+    <ClInclude Include="Attribute\Inc\AttributeUnitData.h">
+      <Filter>头文件\Attribute</Filter>
+    </ClInclude>
+    <ClInclude Include="Attribute\Inc\attribute_data.h">
+      <Filter>头文件\Attribute</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildingUnits\Inc\City.h">
+      <Filter>头文件\BuildingUnits</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildingUnits\Inc\Captial.h">
+      <Filter>头文件\BuildingUnits</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildingUnits\Inc\SciencesAcademy.h">
+      <Filter>头文件\BuildingUnits</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildingUnits\Inc\CommerceDepart.h">
+      <Filter>头文件\BuildingUnits</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildingUnits\Inc\DefenseMinistry.h">
+      <Filter>头文件\BuildingUnits</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildingUnits\Inc\NationalSecurity.h">
+      <Filter>头文件\BuildingUnits</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\Inc\error.h">
+      <Filter>头文件\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\Inc\type.h">
+      <Filter>头文件\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="MovUnits\Inc\BasicMoving.h">
+      <Filter>头文件\MovUnits</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -61,6 +100,30 @@
     </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Attribute\Src\attribute_data.cpp">
+      <Filter>源文件\Attribute</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildingUnits\Src\City.cpp">
+      <Filter>源文件\BuildingUnits</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildingUnits\Src\SciencesAcademy.cpp">
+      <Filter>源文件\BuildingUnits</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildingUnits\Src\CommerceDepart.cpp">
+      <Filter>源文件\BuildingUnits</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildingUnits\Src\DefenseMinistry.cpp">
+      <Filter>源文件\BuildingUnits</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildingUnits\Src\NationalSecurity.cpp">
+      <Filter>源文件\BuildingUnits</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildingUnits\Src\Captial.cpp">
+      <Filter>源文件\BuildingUnits</Filter>
+    </ClCompile>
+    <ClCompile Include="MovUnits\Src\BasicMoving.cpp">
+      <Filter>源文件\MovUnits</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
