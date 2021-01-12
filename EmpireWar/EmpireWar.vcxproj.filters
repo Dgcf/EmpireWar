@@ -93,6 +93,12 @@
     <ClInclude Include="MovUnits\Inc\BasicMoving.h">
       <Filter>头文件\MovUnits</Filter>
     </ClInclude>
+    <ClInclude Include="MovUnits\Inc\Trader.h">
+      <Filter>头文件\MovUnits</Filter>
+    </ClInclude>
+    <ClInclude Include="MovUnits\Inc\Collector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -124,6 +130,12 @@
     </ClCompile>
     <ClCompile Include="MovUnits\Src\BasicMoving.cpp">
       <Filter>源文件\MovUnits</Filter>
+    </ClCompile>
+    <ClCompile Include="MovUnits\Src\Trader.cpp">
+      <Filter>源文件\MovUnits</Filter>
+    </ClCompile>
+    <ClCompile Include="Collector.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

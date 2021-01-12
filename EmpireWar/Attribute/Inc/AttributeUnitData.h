@@ -86,10 +86,9 @@ struct Wealth
 /***************************************************
 *
 ***************************************************/
-struct MovCommon
+struct MovAverage
 {
-	AttackCapability attack;
 	uint8_t blood;
-	uint8_t armor;
 	uint8_t speed;
+	uint8_t armor;
 };
